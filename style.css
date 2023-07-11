@@ -1,0 +1,71 @@
+/*set margin zero universally*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*header section*/
+
+
+
+/* start header section*/
+header{
+    background-color: #E554731A;
+}
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+     
+     
+}
+.section1-title{
+    color: #272727;
+    font-size: 50px;
+    font-weight:800;
+    width: 608px;
+    height: 190px;
+     
+}
+.section1-description{
+    display: flex;
+    align-items: center;
+    width: 445px;
+    height: 70px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    font-style: italic;
+    padding: 0px;
+    margin-top:15px;
+}
+.btn-shopnow{
+    font-size: 15px;
+    border-radius: 7px;
+    background: #E55473;
+    display: inline-flex;
+    padding: 10px 33px;
+    align-items: flex-start;
+    gap: 10px;
+    color: white;
+    height: 50px;
+    width: 150px;
+    margin-top: 15px;
+}
+.header-content{
+     display: flex;
+     flex-direction:column;
+     justify-content: space-around;
+     margin-left: 100px;
+}
+.header-image{
+    padding-top: 55px;
+     
+    padding-right: 120px;
+}
+.head-image{
+    height: 550px;
+    width: 400px;
+    position: static;
+}
+/* Section 1 Complete*/
