@@ -59,8 +59,7 @@ header{
      margin-left: 100px;
 }
 .header-image{
-    padding-top: 55px;
-     
+    padding-top: 55px; 
     padding-right: 120px;
 }
 .head-image{
@@ -69,3 +68,98 @@ header{
     position: static;
 }
 /* Section 1 Complete*/
+
+/*section 2 start*/
+
+main{
+    margin-bottom: 100px;
+}
+.s2-p1, .s2-p2,.s2-p3{
+    width: 280px;
+    height: 300px;
+    margin: 5px;
+    
+}
+.feature-products-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.feature-products-title{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-weight: 800;
+     padding-top: 100px;
+}
+.feature-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+.section2-products{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.s2-p1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.s2-p2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+.s2-p3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+h6{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    text-decoration-line: underline;
+    margin-top: 5px;
+}
+.product-image1{
+    position: static;
+    margin-top: 46px;
+    padding-left: 40px;
+    height: 255px;
+    width: 170px;
+}
+.product-image2{
+     position: static;
+    height: 270px;
+    width: 270px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;  
+}
+.product-image3{
+    position: static;
+    height: 270px;
+    width: 170px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.product-name{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    margin-top: 15px;
+}
+/*section 2 complete*/
