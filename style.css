@@ -11,7 +11,8 @@
  
 header{
     max-height: 700px;
-    max-width: 1228px;
+    width: 100%;
+    /*max-width: 1228px;*/
     background-color: #E554731A;
 }
 .header-container{
@@ -76,7 +77,8 @@ header{
 
 main{
     height: 2100px;
-    width: 1228px;
+    width: 100%;
+    /*width: 1228px;*/
     margin-bottom: 70px;
     
 }
@@ -89,6 +91,7 @@ main{
 }
 .feature-container{
     margin-left: 10px;
+    margin-bottom: 100px;
 }
 .feature-products-description{
     color: rgba(39, 39, 39, 0.60);
@@ -171,6 +174,7 @@ h6{
     font-weight: 700;
     text-decoration-line: underline;
     margin-top: 15px;
+    
 }
 /*section 2 complete*/
 
@@ -183,9 +187,8 @@ h6{
     position: static;
     height: 150px;
     width:860px;
-    margin-left: 185px;
-     
-    margin-top: 80px;
+    margin: auto;
+    /*margin-top: 80px;*/
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
      
@@ -336,8 +339,7 @@ h6{
 .contact-section{
     height: 270px;
     width: 935px;
-    margin-left: 150px;
-    margin-right: 100px;
+     margin: auto;
     background-image: url('./Flower Asset/Rectangle\ 9.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -400,7 +402,7 @@ h6{
 /* section 6 complete*/
 /*section 7 start*/
 footer{
-    width:1228px;
+    width:100%;
     height: 280px;
     background-color: #111010;
 }
