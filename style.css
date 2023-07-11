@@ -75,7 +75,7 @@ header{
 /*section 2 start*/
 
 main{
-    height: 3000px;
+    height: 2100px;
     width: 1228px;
     margin-bottom: 70px;
     
@@ -362,18 +362,21 @@ h6{
     width: 500px;
     border-radius: 10px;
     margin-left: 150px;
+    padding-left: 5px;
 }
 .subscribe-btn{
-    width: 90px;
+    width: 120px;
     height: 34px;
     border-radius: 5px;
     background: #E55473;
 
     color: #FFF;
     font-family: Lato;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 700;
     margin-right: 300px;
+    margin-left: 10px;
+    padding: 5px;
     
 }
 .section-5-heading{
@@ -395,3 +398,48 @@ h6{
     padding-bottom: 5px;
 }
 /* section 6 complete*/
+/*section 7 start*/
+footer{
+    width:1228px;
+    height: 280px;
+    background-color: #111010;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 70px;
+
+}
+.footer-title{
+    color: hsl(0, 7%, 92%);
+    font-size: 50px;
+    font-weight:800;
+    padding-bottom: 10px;
+     
+     
+}
+.footer-description{
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 50px;
+}
+.copy-right-messege{
+    color:white;
+    text-align: center;
+    font-family: Lato;
+    font-size: 10px;
+     
+    font-weight: 300;
+     
+}
+/*section 7 done*/
